@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Aliyu Muhammed</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .project-card {
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .project-card h3 {
+      margin: 1rem;
+      font-size: 1.3rem;
+      color: #0a3d62;
+    }
+    .project-card p {
+      margin: 0 1rem 1rem;
+      font-size: 1rem;
+      color: #555;
+    }
+    .project-card a {
+      display: inline-block;
+      margin: 0 1rem 1rem;
+      color: #007bff;
+      text-decoration: none;
+    }
+    .project-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Aliyu Muhammed</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>My Projects</h1>
+      <p>Here are some of the digital solutions I’ve created.</p>
+    </div>
+  </section>
+
+  <section class="projects-container">
+    <div class="project-card">
+      <img src="https://via.placeholder.com/600x300?text=Buy+Book+Ventures" alt="Buy Book Ventures" />
+      <h3>Buy Book Ventures</h3>
+      <p>An online bookstore system for browsing and managing eBooks. Built with PHP, MySQL, HTML/CSS/JS.</p>
+      <a href="https://github.com/aliyucodes/buy-book" target="_blank">View Code</a>
+      <a href="#" target="_blank">Live Demo</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/600x300?text=Enhance+eLearning" alt="Enhance eLearning Platform" />
+      <h3>Enhance eLearning Platform</h3>
+      <p>A web-based learning platform offering academic and digital skills courses. Responsive and user-friendly.</p>
+      <a href="https://github.com/aliyucodes/enhance-elearning" target="_blank">View Code</a>
+      <a href="#" target="_blank">Live Demo</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/600x300?text=Space+Chat" alt="Space Chat App" />
+      <h3>Space Chat App</h3>
+      <p>A simple real-time messaging app built with JavaScript, showcasing dynamic UI updates and interactivity.</p>
+      <a href="https://github.com/aliyucodes/space-chat" target="_blank">View Code</a>
+      <a href="#" target="_blank">Live Demo</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aliyu Muhammed. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/aliyucodes" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/aliyuitexpert" target="_blank">LinkedIn</a> |
+      <a href="https://facebook.com/alixnetonline" target="_blank">Facebook</a> |
+      <a href="https://youtube.com/@alixskills" target="_blank">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
